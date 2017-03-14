@@ -1,8 +1,6 @@
 package de.consol.labs.promdemo;
 
-import io.prometheus.client.CollectorRegistry;
 import io.prometheus.client.Counter;
-import io.prometheus.client.exporter.common.TextFormat;
 import io.prometheus.client.spring.boot.EnablePrometheusEndpoint;
 import io.prometheus.client.spring.boot.SpringBootMetricsCollector;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,8 +14,6 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import java.io.IOException;
-import java.io.Writer;
 import java.util.Collection;
 import java.util.concurrent.atomic.AtomicInteger;
 
