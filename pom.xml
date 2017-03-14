@@ -29,6 +29,13 @@
             <artifactId>spring-boot-actuator</artifactId>
         </dependency>
 
+        <!-- Dropwizard -->
+        <dependency>
+            <groupId>io.dropwizard.metrics</groupId>
+            <artifactId>metrics-core</artifactId>
+            <version>3.1.2</version>
+        </dependency>
+
         <!-- Prometheus -->
         <dependency>
             <groupId>io.prometheus</groupId>
